@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+  .signup-page {
+    position: relative;
+    background-color: #2c1432;
+  }
+  .img-add {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img-add input {
+    position: absolute;
+    width: 90px;
+    height: 120px;
+    background-color: transparent;
+    color: transparent;
+  }
+  .img-add img {
+    width: 75px;
+  }
+  .img-login input {
+    color: #878787;
+  }
+  .sel-input-options {
+    background-color: transparent;
+    border: none;
+    color: #878787;
+    width: 100%;
+  }
+  .country-select {
+    background-color: transparent;
+    border: none;
+    color: #878787;
+    width: 100%;
+  }
+}
+
