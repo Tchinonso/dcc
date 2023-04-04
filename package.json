@@ -19,11 +19,10 @@
     "react-router-dom": "^6.4.4",
     "react-scripts": "^2.1.8",
     "swiper": "^8.4.5",
-    "web-vitals": "^2.1.4",
-    "webpack": "^4.28.3"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
